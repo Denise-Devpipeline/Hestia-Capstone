@@ -2,6 +2,7 @@ html,
 body {
   margin: 0%;
   height: 100%;
+  background-color: grey;
 }
 
 /* NAVIGATION BAR */
@@ -42,4 +43,23 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   background-attachment: scroll;
+}
+
+/* Gray background behind what we stand for */
+.white-background-container {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  float: ;
+  z-index: 1;
+  margin: 10px 10px;
+}
+
+.blocks-wrapper {
+  display: flex;
+}
+
+/* What we stand for */
+
+.stand-section {
+  width: 100%;
 }
