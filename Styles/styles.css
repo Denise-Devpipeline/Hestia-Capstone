@@ -2,6 +2,8 @@ html,
 body {
   margin: 0%;
   height: 100%;
+  /* background-color: rgb(188, 175, 175);
+  z-index: -2; */
 }
 
 /* NAVIGATION BAR */
