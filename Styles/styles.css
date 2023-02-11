@@ -10,7 +10,6 @@ body {
 .nav-home-container {
   display: flex;
   color: rgb(0, 0, 0);
-  margin-inline-end: 20px;
 }
 
 .nav-home-container > .hestia-wrapper > .hestia-name,

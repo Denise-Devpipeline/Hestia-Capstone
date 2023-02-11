@@ -1,0 +1,11 @@
+/* CONTACT MAP */
+.contact-info-container-map {
+  margin: 0;
+  width: 100%;
+}
+
+.contact-info-map iframe {
+  width: 100%;
+  position: fixed;
+  height: 200px;
+}

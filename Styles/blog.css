@@ -26,7 +26,11 @@ h1 {
   position: relative;
 }
 
-.main-container {
+.blog-main-contain {
+  padding: 150px;
+}
+
+.main-container > .blog-main-contain {
   background-color: white;
   max-width: 100%;
   margin: 0px 40px 0px 40px;
@@ -40,15 +44,25 @@ h1 {
   grid-auto-rows: auto;
 }
 
-.main-container > .blog-main-contain {
-  grid-template-rows: auto;
-}
-
 /* FOOTER */
 .footer-container {
   display: flex;
+  justify-content: space-between;
   background-color: rgb(91, 91, 91);
   position: relative;
   z-index: 3;
   min-height: 40vh;
+  top: -200px;
+  color: white;
+  padding: 0 150px 0 150px;
+  align-items: center;
+}
+
+.left-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.right-footer {
+  display: flex;
+  justify-content: space-evenly;
 }
