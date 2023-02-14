@@ -1,0 +1,49 @@
+/* NAVIGATION BAR */
+.nav-container {
+  display: flex;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -1px -1px 20px -4px rgba(0, 0, 0, 0.78);
+  width: 100%;
+  top: 0px;
+  line-height: 30px;
+}
+.nav-container .hestia-name {
+  display: inline-block;
+  padding: 15px 13px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.nav-container .hestia-wrapper {
+  display: flex;
+  margin-right: 800px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.links-wrapper {
+  display: flex;
+}
+.links-wrapper .main-nav-links,
+.links-wrapper .more-button a {
+  display: inline-block;
+  padding: 15px 13px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  font-size: 12px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+.links-wrapper .more-button {
+  background-color: hotpink;
+  opacity: 1;
+  transition: 0.25s;
+  border-radius: 16px;
+}/*# sourceMappingURL=navigation.css.map */

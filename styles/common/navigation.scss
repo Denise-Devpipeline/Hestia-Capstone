@@ -1,0 +1,55 @@
+@mixin nav-options {
+  display: inline-block;
+  padding: 15px 13px;
+  cursor: pointer;
+}
+
+/* NAVIGATION BAR */
+.nav-container {
+  display: flex;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -1px -1px 20px -4px rgb(0 0 0 / 78%);
+  width: 100%;
+  top: 0px;
+  line-height: 30px;
+
+  .hestia-name {
+    @include nav-options();
+    text-decoration: none;
+    color: black;
+  }
+
+  .hestia-wrapper {
+    display: flex;
+    margin-right: 800px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 100;
+  }
+}
+
+.links-wrapper {
+  display: flex;
+
+  .main-nav-links,
+  .more-button a {
+    @include nav-options();
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 12px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  .more-button {
+    background-color: hotpink;
+    opacity: 1;
+    transition: 0.25s;
+    border-radius: 16px;
+  }
+}

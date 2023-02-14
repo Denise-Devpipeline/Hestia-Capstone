@@ -2,49 +2,31 @@ html,
 body {
   margin: 0%;
   height: 100%;
-  /* background-color: rgb(188, 175, 175);
-  z-index: -2; */
-}
-
-/* NAVIGATION BAR */
-.nav-home-container {
-  display: flex;
-  color: rgb(0, 0, 0);
-  background-color: #fff;
-}
-
-.nav-home-container > .hestia-wrapper > .hestia-name,
-.nav-home-container > .links-wrapper > .main-nav-links,
-.nav-home-container > .links-wrapper > .more-button {
-  display: inline-block;
-  padding: 15px 13px;
-  cursor: pointer;
-}
-
-.hestia-wrapper {
-  display: flex;
-  margin-right: 800px;
-}
-
-.main-nav-links,
-.more-button {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 /* PARALLAX */
-
 .parallax-hero-container {
-  background-image: url("../images/lady-lib.jpeg");
+  background-image: url("images/lady-lib-unsplash.jpg");
   min-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
-  background-attachment: scroll;
+  background-size: cover;
+  background-attachment: fixed;
   color: white;
+}
+
+.parallax-hero-container,
+.parallax-hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 12px 24px;
+  background-color: blanchedalmond;
+  opacity: 8;
+  font-size: 1.25rem;
+  letter-spacing: 10px;
 }
 
 /* Gray background behind what we stand for */
@@ -61,13 +43,11 @@ body {
 }
 
 /* What we stand for */
-
 .stand-section {
   width: 100%;
 }
 
 /* ABOUT HESTIA - CITY BACKGROUND & PARALAXING */
-
 .about-hestia > .city-float-pages img {
   box-sizing: border-box;
   height: auto;
@@ -76,7 +56,7 @@ body {
 }
 
 .parallax-bg-container {
-  background-image: url("/images/city-bldgs.jpeg");
+  background-image: url("images/city-bldgs.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -89,7 +69,6 @@ body {
   top: 50%;
   left: 10%;
   color: #fff;
-
   font-family: "Roboto Slab", "Times New Roman", serif;
 }
 
@@ -116,4 +95,4 @@ body {
 img {
   width: 50%;
   height: 20%;
-}
+}/*# sourceMappingURL=home.css.map */

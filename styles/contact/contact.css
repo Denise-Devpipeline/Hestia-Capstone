@@ -1,0 +1,61 @@
+/* NAV BAR */
+.nav-home-container {
+  display: flex;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  width: 100%;
+  box-shadow: -1px -1px 20px -4px rgba(0, 0, 0, 0.78);
+}
+
+.nav-home-container > .hestia-wrapper > .hestia-name,
+.nav-home-container > .links-wrapper > .main-nav-links,
+.nav-home-container > .links-wrapper > .more-button {
+  display: inline-block;
+  padding: 15px 13px;
+  cursor: pointer;
+}
+
+.hestia-wrapper {
+  display: flex;
+  margin-right: 800px;
+}
+
+.main-nav-links,
+.more-button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* CONTACT MAP */
+.contact-info-container-map {
+  margin: 0;
+  width: 100%;
+}
+
+.contact-info-map iframe {
+  width: 100%;
+  /* position: fixed; */
+  height: 300px;
+  display: flex;
+}
+
+/* CONTACT CONTAINER SECTION */
+.contact-flex-container {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.contact-container {
+  min-height: 100%;
+  background-color: white;
+  position: center;
+}
+
+/* CONTACT BUTTON */

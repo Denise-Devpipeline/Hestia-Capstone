@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0%;
+  height: 100%;
+}
+
+// Navigation
+
+/* PARALLAX */
+.parallax-hero-container {
+  background-image: url("images/lady-lib-unsplash.jpg");
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+.parallax-hero-container,
+.parallax-hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 12px 24px;
+  background-color: blanchedalmond;
+  opacity: 8;
+  font-size: 1.25rem;
+  letter-spacing: 10px;
+}
+
+/* Gray background behind what we stand for */
+.white-background-container {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  z-index: 2;
+  width: 90%;
+  /* height: 100%; */
+}
+
+.blocks-wrapper {
+  display: flex;
+}
+
+/* What we stand for */
+
+.stand-section {
+  width: 100%;
+}
+
+/* ABOUT HESTIA - CITY BACKGROUND & PARALAXING */
+
+.about-hestia > .city-float-pages img {
+  box-sizing: border-box;
+  height: auto;
+  max-width: 50%;
+  vertical-align: bottom;
+}
+
+.parallax-bg-container {
+  background-image: url("images/city-bldgs.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  filter: grayscale(0%);
+}
+
+.parallax-bg-container > .parallax-bg-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+
+  font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+/* ABOUT HESTIA PARAGRAPH */
+.p {
+  font-size: 18px;
+  /* font-family: "roboto slab", "helvetica", arial, sans-serif; */
+}
+
+.span {
+  font-weight: 700;
+}
+
+.city-hestia {
+  display: flex;
+}
+
+.city-float-pages img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+img {
+  width: 50%;
+  height: 20%;
+}
