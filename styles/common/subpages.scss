@@ -1,0 +1,11 @@
+@mixin sub-pages {
+  display: flex;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -1px -1px 20px -4px rgba(0, 0, 0, 0.78);
+  width: 100%;
+  top: 0px;
+  line-height: 30px;
+}

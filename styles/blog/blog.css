@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 
-h1 {
+.h1 {
   font-size: 18px;
   color: white;
   font-family: "Lato", sans-serif;

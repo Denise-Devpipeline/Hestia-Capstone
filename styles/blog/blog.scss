@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 
-h1 {
+@mixin all-page-headers {
   font-size: 18px;
   color: white;
   font-family: "Lato", sans-serif;
@@ -19,6 +19,9 @@ h1 {
   padding-top: 8%;
 }
 
+.h1 {
+  @include all-page-headers();
+}
 .blog-container {
   background-color: rgb(234, 57, 111);
   height: 100%;
