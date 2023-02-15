@@ -45,6 +45,11 @@ body {
     text-align: center;
     font-size: 1.25rem;
   }
+  .h1 {
+    font-size: 67px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    color: #fff;
+  }
 }
 
 // WHAT WE STAND FOR SECTION
@@ -105,4 +110,6 @@ body {
 
 // BOTTOM BLOG SECTION
 
-.blog-container-main 
+.blog-container-main {
+  display: flex;
+}

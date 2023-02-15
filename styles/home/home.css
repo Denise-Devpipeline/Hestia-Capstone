@@ -23,6 +23,11 @@ body {
   text-align: center;
   font-size: 1.25rem;
 }
+.parallax-hero-container .h1 {
+  font-size: 67px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #fff;
+}
 
 .stand-section {
   background-color: rgb(255, 255, 255);
@@ -85,4 +90,8 @@ body {
 .city-float-pages img {
   flex-wrap: wrap;
   width: 500px;
+}
+
+.blog-container-main {
+  display: flex;
 }/*# sourceMappingURL=home.css.map */
