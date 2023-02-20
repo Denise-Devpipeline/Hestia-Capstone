@@ -1,1 +1,23 @@
-/*# sourceMappingURL=footer.css.map */
+.footer-container {
+  display: flex;
+  width: 100%;
+}
+
+.footer-wrapper {
+  display: inline-block;
+  background-color: rgb(90, 90, 90);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  padding: 0 70px;
+  width: 80%;
+}
+.footer-wrapper .left-footer a {
+  padding: 10px 10px;
+  display: inline-flex;
+}
+.footer-wrapper .right-footer {
+  text-align: right;
+}/*# sourceMappingURL=footer.css.map */
