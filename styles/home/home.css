@@ -2,6 +2,7 @@ html,
 body {
   margin: 0%;
   height: 100%;
+  background-color: rgb(200, 200, 200);
 }
 
 /* PARALLAX */
@@ -17,22 +18,26 @@ body {
 }
 .parallax-hero-container .parallax-hero-content {
   position: relative;
-  color: black;
-  padding: 80px;
-  width: 100%;
+  padding-top: 100px;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Signika Negative", sans-serif;
 }
-.parallax-hero-container .h1 {
-  font-size: 67px;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  color: #fff;
+.parallax-hero-container .span {
+  font-size: 18px;
+}
+
+.white-background-container {
+  margin: 0 40px 0 40px;
+  background-color: #fff;
 }
 
 .stand-section h2 {
   background-color: rgb(255, 255, 255);
   position: relative;
-  width: 90%;
   height: 80px;
   top: -50px;
   z-index: 1;
@@ -98,6 +103,7 @@ body {
 .blog-container-main {
   width: 100%;
   height: 50px;
+  background-color: #fff;
 }
 
 .blog-head-wrapper h2 {
@@ -106,11 +112,29 @@ body {
   font-family: "Roboto Slab", "Times New Roman", serif;
 }
 
-.uncategorized-wrapper {
+.section-blog {
   display: grid;
-  grid-row: 1fr, 1r, 1fr;
-  background-color: honeydew;
-  row-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  row-gap: 10px;
   padding: 20px;
   text-align: center;
+}
+.section-blog .uncategorized {
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+  font-size: 12px;
+  font-family: "Roboto Slab, helvetica, Arial";
+  text-transform: uppercase;
+}
+.section-blog .content h6 {
+  font-size: 18px;
+  font-family: "Roboto Slab, helvetica, Arial";
+}
+.section-blog .p {
+  font-size: 15px;
+  font-family: "Roboto Slab, helvetica, Arial";
+  font-weight: 300;
+  line-height: 1.6;
+  color: rgb(224, 224, 224);
 }/*# sourceMappingURL=home.css.map */
